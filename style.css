@@ -8,7 +8,30 @@
 html{
     scroll-behavior: smooth;
 }
+/*social*/
+.centerdiv{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
 
+}
+.centerdiv a{
+	height: 80px;
+	width: 80px;
+	background: #f5f6fa;
+	border-radius: 50px;
+	text-align: center;
+	margin: 10px;
+	line-height: 97px;
+	box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.centerdiv a i{
+	font-size: 30px;
+	transition: all 0.3s linear;
+}
+.centerdiv a i:hover{
+	transform: scale(1.4);
+}
 .t{
 	text-align: center;
 	margin-top: 20px;
